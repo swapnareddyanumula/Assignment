@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Website</title>
+    </head>
+    <body>
+        <h4>Java Script</h4>
+        <p id=demo1></p>
+        <p id=demo2></p>
+        <button onclick="myfunction()">Display Value</button>
+        <p id=demo3></p>
+        <p id=demo4></p>
+        <p id=demo5></p>
+        <p id=demo6></p>
+
+
+        <script>
+
+            let x = 6;
+            let y = 4;
+            let z = x + y;
+            document.getElementById("demo1").innerHTML = z;
+            
+            let a = "Swapna Reddy";
+            let b = "Anumula";
+            let c = a.concat(" ",b);
+            document.getElementById("demo2").innerHTML = c;
+            
+            function myfunction()
+            {
+                document.getElementById("demo3").innerHTML = x - y;;
+            }
+            
+            const fruit = {name:"Apple", kgs:"2", color:"green"};
+            document.getElementById("demo4").innerHTML = fruit["name"];
+            
+            document.getElementById("demo5").innerHTML = Date();
+            
+            const arr1 = ["car", "bike", "bicycle", "bus"];
+            arr1.push("van");
+            
+            document.getElementById("demo6").innerHTML = arr1;
+            
+
+
+        </script>
+    </body>
+</html>
