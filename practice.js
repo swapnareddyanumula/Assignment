@@ -16,4 +16,3 @@ console.log(sp[1]);
 
 
 
-
