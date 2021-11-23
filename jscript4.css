@@ -1,0 +1,18 @@
+h1
+{
+    color: goldenrod;
+}
+body
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: green;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+button
+{
+    color: #016f32;
+    width: 150px;
+    background-color: goldenrod;
+}
